@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="4dp"
+    android:scrollbarTrackVertical="@drawable/google">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="377dp"
+        android:layout_height="491dp"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="616dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:shadowColor="#1C1818"
+        android:text="80$"
+        android:textSize="50"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        tools:layout_editor_absoluteY="732dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0"
+        android:layout_height="133"
+        android:layout_marginStart="700dp"
+        android:layout_marginLeft="700dp"
+        android:scrollbarSize="4dp"
+        android:text="Google"
+        android:textSize="60"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="365dp"
+        android:layout_height="455dp"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="630dp"
+        tools:layout_editor_absoluteY="855dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="355dp"
+        android:layout_height="100dp"
+        android:text="Google"
+        android:textSize="60"
+        tools:layout_editor_absoluteX="700dp"
+        tools:layout_editor_absoluteY="1385dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="247dp"
+        android:layout_height="75dp"
+        android:text="80$"
+        android:textSize="50"
+        tools:layout_editor_absoluteX="731dp"
+        tools:layout_editor_absoluteY="1545dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
